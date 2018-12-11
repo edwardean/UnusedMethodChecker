@@ -211,9 +211,11 @@ func findUnusedClass(machoInfo: String) -> [String] {
 }
 
 private func printParams() {
-    print("🔅 参数一: mach-o文件绝对路径。")
-    print("🔅 参数二: 检查输出文件路径。文件后缀必须是html格式。")
-    print("🔅 参数二: Selector白名单数组。")
+    print("🤖  通过检查MachO文件分析没有使用的类和方法。OC和Swift都支持。")
+    print("🖥  https://github.com/edwardean/UnusedMethodChecker")
+    print("🔅  参数一: mach-o文件绝对路径。")
+    print("🔅  参数二: 检查输出文件路径。文件后缀必须是html格式。")
+    print("🔅  参数二: Selector白名单数组。")
 }
 
 let arguments = CommandLine.arguments
